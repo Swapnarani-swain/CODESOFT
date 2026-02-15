@@ -1,75 +1,86 @@
-body{
-    margin:0;
-    font-family: Arial;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 /* Navbar */
-header{
-    background:#333;
-    color:white;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:15px 50px;
+header {
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    align-items: center;
 }
 
-header nav a{
-    color:white;
-    text-decoration:none;
-    margin-left:20px;
-    font-size:14px;
+header nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
 }
 
-header nav a:hover{
-    color:#00aaff;
+header nav a:hover {
+    color: #00aaff;
 }
 
-.logo p{
-    font-size:12px;
-    margin:0;
+/* Hero Section */
+.hero {
+    height: 90vh;
+    background: url("https://images.unsplash.com/photo-1522071820081-009f0129c71c") no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    color: white;
 }
 
-/* Hero */
-.hero{
-    height:90vh;
-    background:url("https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d") no-repeat center;
-    background-size:cover;
-    display:flex;
-    align-items:center;
-    padding-left:80px;
-    color:white;
+.hero-text h1 {
+    font-size: 40px;
 }
 
-.hero-text h1{
-    font-size:40px;
+.hero-text button {
+    padding: 10px 20px;
+    background: #007bff;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
-.hero button{
-    padding:10px 20px;
-    background:#007bff;
-    border:none;
-    color:white;
-    cursor:pointer;
+.hero-text button:hover {
+    background: #0056b3;
 }
 
-/* About */
-.about{
-    display:flex;
-    padding:60px 80px;
-    align-items:center;
+/* About Section */
+.about {
+    display: flex;
+    padding: 60px 80px;
+    align-items: center;
 }
 
-.about img{
-    width:300px;
+.about img {
+    width: 300px;
 }
 
-.about-text{
-    margin-left:40px;
+.about-text {
+    margin-left: 40px;
 }
 
-.about-text button{
-    padding:10px 20px;
-    background:#007bff;
-    border:none;
-    color:white;
+.about-text button {
+    padding: 10px 20px;
+    background: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.about-text button:hover {
+    background: #0056b3;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
